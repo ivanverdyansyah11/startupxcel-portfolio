@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'koulen-regular';
+    src: url('../font/koulen/Koulen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url('../font/urbanist/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('../font/urbanist/Urbanist-Medium.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: 133, 93, 255;
+    --dark-color: 33, 33, 33;
+    --light-color: 255, 255, 255;
+
+    --koulen-regular: 'koulen-regular', Arial, Helvetica, sans-serif;
+    --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--urbanist-medium) !important;
+    color: rgba(var(--dark-color), 1);
+    transition: 250ms !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+p.paragraph {
+    font-size: 1rem;
+    color: rgba(var(--dark-color), 0.72) !important;
+}
+
+p.paragraph-small {
+    font-size: 0.938rem;
+    color: rgba(var(--dark-color), 0.82);
+}
+
+/* COMPONENT STYLE */
+section.section-gap {
+    margin-top: 122px;
+}
+
+.row.row-gap {
+    margin-bottom: 56px
+}
+
+.button-default {
+    display: inline-block;
+    width: fit-content;
+    all: unset;
+    cursor: pointer;
+    padding: 18px 30px;
+    background-color: rgba(var(--primary-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.button-reverse {
+    display: inline-block;
+    width: fit-content;
+    all: unset;
+    cursor: pointer;
+    padding: 18px 30px;
+    background-color: rgba(var(--dark-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.button-reverse-small {
+    display: inline-block;
+    width: fit-content;
+    all: unset;
+    cursor: pointer;
+    padding: 16px 26px;
+    background-color: rgba(var(--dark-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.button-defaul:hover,
+.button-reverse:hover,
+.button-reverse-small:hover {
+    opacity: 0.94;
+}
+
+.subtitle {
+    padding: 10px 15px;
+    width: fit-content;
+    background-color: rgba(var(--primary-color), 0.12);
+    border-radius: 9999px;
+    color: rgba(var(--primary-color), 1);
+    font-size: 0.813rem;
+}
+
+.headline {
+    line-height: 102%;
+    font-size: 4.375rem;
+    font-family: var(--koulen-regular) !important;
+}
+
+.title {
+    font-size: 2.75rem;
+    line-height: 122%;
+    font-family: var(--koulen-regular) !important;
+}
+
+.headline .light,
+.title .light {
+    color: rgba(var(--primary-color), 1);
+    font-family: var(--koulen-regular) !important;
+}
+
+h5 {
+    font-size: 1.125rem;
+    color: rgba(var(--dark-color), 1);
+}
+
+h6 {
+    color: rgba(var(--dark-color), 1);
+}
+
+.card-default {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(var(--dark-color), 0.02);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+}
+
+.wrapper-image {
+    overflow: hidden;
+}
+
+.wrapper-image:hover > img {
+    transform: scale(1.04);
+}
+/* END COMPONENT */
+
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 1px solid rgba(var(--dark-color), 0.12);
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: var(--urbanist-medium) !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: rgba(var(--primary-color), 1) !important;
+}
+/* END NAVBAR */
+
+/* SECTION HERO */
+.hero {
+    height: 88vh;
+}
+/* END SECTION HERO */
+
+
+/* SECTION ADVENTAGE */
+.card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 7px;
+    background-color: rgba(var(--light-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+}
+
+.card-link {
+    color: rgba(var(--primary-color), 1);
+    font-size: 0.845rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    stroke: none;
+    font-family: var(--urbanist-medium) !important;
+}
+
+.card-link:hover > img {
+    transform: translateX(3px);
+}
+/* END SECTION ADVENTAGE */
+
+
+/* SECTION ZONE */
+.zone-title.active {
+    color: rgba(var(--primary-color), 1);
+}
+/* END SECTION ZONE */
+
+
+/* SECTION ABOUT */
+.fact-value {
+    color: rgba(var(--primary-color), 1);
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+    line-height: 120%;
+    font-family: var(--koulen-regular) !important;
+}
+
+.fact-caption {
+    color: rgba(var(--dark-color), 0.52);
+    font-size: 0.875rem;
+}
+/* END SECTION ABOUT */
+
+
+/* SECTION GUIDELINE */
+.guideline .card-icon {
+    min-width: 52px !important;
+    max-width: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+}
+
+.guide-number {
+    font-size: 1.625rem;
+    font-family: var(--koulen-regular) !important;
+    color: rgba(var(--primary-color), 1);
+}
+/* END SECTION GUIDELINE */
+
+
+/* SECTION PRICING */
+.pricing-price {
+    font-size: 2rem;
+    font-family: var(--koulen-regular) !important;
+    color: rgba(var(--primary-color), 1);
+    line-height: 122%;
+}
+
+.button-pricing {
+    display: inline-block;
+    padding: 15px 28px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--primary-color), 1);
+    border-radius: 9999px;
+    color: rgba(var(--primary-color), 1);
+    width: 100% !important;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-pricing:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+/* END SECTION PRICING */
+
+
+/* SECTION GALLERY */
+.gallery img {
+    border-radius: 8px;
+}
+/* END SECTION GALLERY */
+
+
+/* SECTION TESTIMONI */
+.testimoni .card-default {
+    padding: 22px !important;
+}
+.wrapper-profile {
+    padding: 6px;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 3px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+.profile-name {
+    color: rgba(var(--primary-color), 1);
+}
+
+.profile-position {
+    color: rgba(var(--dark-color), 1);
+    font-size: 0.875rem;
+}
+
+.swiper-pagination {
+    top: 0;
+    left: 0 !important;
+    transform: translateY(40px);
+    z-index: 9999 !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(var(--dark-color), 0.52) !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 2px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 28px !important;
+    background-color: rgba(var(--dark-color), 0.52) !important;
+    border-radius: 6px;
+}
+/* END SECTION TESTIMONI */
+
+
+/* SECTION FAQ */
+.accordion-button {
+    padding: 24px !important;
+    background-color: rgba(var(--dark-color), 0.02) !important;
+}
+/* END SECTION FAQ */
+
+
+/* FOOTER */
+.footer {
+    background-color: rgba(var(--dark-color), 1);
+    padding-top: 122px;
+    margin-top: 122px;
+}
+
+.footer h6 {
+    color: rgba(var(--light-color), 1);
+}
+
+.footer .paragraph-small {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.72);
+    text-decoration: none;
+}
+
+.footer a.paragraph-small:hover {
+    color: rgba(var(--light-color), 1);
+}
+
+.sosmed-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--light-color), 0.02);
+    border: 1px solid rgba(var(--light-color), 0.12);
+    border-radius: 4px;
+}
+
+.sosmed-icon:hover {
+    background-color: rgba(var(--light-color), 0.06);
+}
+
+.copyright {
+    padding: 22px 0 !important;
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
+
+.copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.32);
+    font-family: var(--urbanist-regular) !important;
+}
+/* END FOOTER */
+
+
+/* BREAKPOINT XL */
+@media (max-width: 1399.98px) {
+    .headline {
+        font-size: 4rem;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+    }
+}
+/* END BREAKPOINT XL */
+
+
+/* BREAKPOINT LG */
+@media (max-width: 1199.98px) {
+    .headline {
+        font-size: 3.5rem;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+    }
+}
+/* END BREAKPOINT LG */
+
+
+/* BREAKPOINT MD */
+@media (max-width: 991.98px) {
+    .hero {
+        height: fit-content;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    .row.row-gap {
+        margin-bottom: 42px
+    }
+}
+/* END BREAKPOINT MD */
+
+
+/* BREAKPOINT SM */
+@media (max-width: 767.98px) {
+    .headline {
+        font-size: 3rem;
+    }
+    
+    .title {
+        font-size: 2.25rem;
+    }
+}
+/* END BREAKPOINT MD */
