@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'koulen-regular';
-    src: url('../font/koulen/Koulen-Regular.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'urbanist-regular';
     src: url('../font/urbanist/Urbanist-Regular.ttf') format('truetype');
 }
@@ -14,19 +9,22 @@
 }
 
 :root {
-    --primary-color: 133, 93, 255;
-    --dark-color: 33, 33, 33;
+    --primary-color: 242, 207, 137;
+    --dark-color: 27, 26, 31;
     --light-color: 255, 255, 255;
 
-    --koulen-regular: 'koulen-regular', Arial, Helvetica, sans-serif;
     --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
     --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
 }
 
 * {
     font-family: var(--urbanist-medium) !important;
-    color: rgba(var(--dark-color), 1);
+    color: rgba(var(--light-color), 1);
     transition: 250ms !important;
+}
+
+body {
+    background-color: rgba(var(--dark-color), 1);
 }
 
 h1,
@@ -42,12 +40,12 @@ p {
 
 p.paragraph {
     font-size: 1rem;
-    color: rgba(var(--dark-color), 0.72) !important;
+    color: rgba(var(--light-color), 0.72);
 }
 
 p.paragraph-small {
     font-size: 0.938rem;
-    color: rgba(var(--dark-color), 0.82);
+    color: rgba(var(--light-color), 0.72);
 }
 
 /* COMPONENT STYLE */
@@ -59,116 +57,96 @@ section.section-gap {
     margin-bottom: 56px
 }
 
-.button-default {
-    display: inline-block;
-    width: fit-content;
-    all: unset;
-    cursor: pointer;
-    padding: 18px 30px;
-    background-color: rgba(var(--primary-color), 1);
-    border-radius: 9999px;
-    font-size: 0.938rem;
-    color: rgba(var(--light-color), 1);
-}
-
-.button-reverse {
-    display: inline-block;
-    width: fit-content;
-    all: unset;
-    cursor: pointer;
-    padding: 18px 30px;
-    background-color: rgba(var(--dark-color), 1);
-    border-radius: 9999px;
-    font-size: 0.938rem;
-    color: rgba(var(--light-color), 1);
-}
-
-.button-reverse-small {
-    display: inline-block;
-    width: fit-content;
-    all: unset;
-    cursor: pointer;
-    padding: 16px 26px;
-    background-color: rgba(var(--dark-color), 1);
-    border-radius: 9999px;
-    font-size: 0.938rem;
-    color: rgba(var(--light-color), 1);
-}
-
-.button-defaul:hover,
-.button-reverse:hover,
-.button-reverse-small:hover {
-    opacity: 0.94;
-}
-
-.subtitle {
-    padding: 10px 15px;
-    width: fit-content;
-    background-color: rgba(var(--primary-color), 0.12);
-    border-radius: 9999px;
-    color: rgba(var(--primary-color), 1);
-    font-size: 0.813rem;
-}
-
 .headline {
-    line-height: 102%;
-    font-size: 4.375rem;
-    font-family: var(--koulen-regular) !important;
+    line-height: 122%;
+    font-size: 2.938rem;
+    color: rgba(var(--light-color), 0.52);
 }
 
 .title {
-    font-size: 2.75rem;
+    color: rgba(var(--light-color), 0.52);
+    font-size: 2.5rem;
     line-height: 122%;
-    font-family: var(--koulen-regular) !important;
 }
 
 .headline .light,
 .title .light {
-    color: rgba(var(--primary-color), 1);
-    font-family: var(--koulen-regular) !important;
+    color: rgba(var(--light-color), 1);
 }
 
-h5 {
-    font-size: 1.125rem;
-    color: rgba(var(--dark-color), 1);
+.headline .primary,
+.title .primary {
+    color: rgba(var(--primary-color), 1);
 }
 
 h6 {
+    color: rgba(var(--light-color), 1);
+}
+
+.button-light {
+    width: fit-content;
+    background-color: rgba(var(--light-color), 1);
+    padding: 14px 20px;
+    border-radius: 9999px;
+    font-size: 0.913rem;
     color: rgba(var(--dark-color), 1);
+    border: none;
+    outline: none;
+    stroke: none;
+    text-decoration: none;
 }
 
-.card-default {
-    padding: 30px;
-    border-radius: 8px;
-    background-color: rgba(var(--dark-color), 0.02);
-    border: 1px solid rgba(var(--dark-color), 0.12);
+.button-default {
+    width: fit-content;
+    background-color: rgba(var(--primary-color), 1);
+    padding: 16px 28px;
+    border-radius: 9999px;
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 1);
+    border: none;
+    outline: none;
+    stroke: none;
+    text-decoration: none;
 }
 
-.wrapper-image {
-    overflow: hidden;
+.button-reverse {
+    width: fit-content;
+    background-color: transparent;
+    padding: 4px 4px 4px 28px;
+    border-radius: 9999px;
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 1);
+    border: 1px solid rgba(var(--light-color), 1);
+    outline: none;
+    stroke: none;
+    text-decoration: none;
 }
 
-.wrapper-image:hover > img {
-    transform: scale(1.04);
-}
-/* END COMPONENT */
-
-
-/* NAVBAR */
-.navbar {
-    border-bottom: 1px solid rgba(var(--dark-color), 0.12);
+.button-reverse .arrow-icon {
+    width: 43px;
+    height: 43px;
+    background-color: rgba(var(--light-color), 1);
+    border-radius: 9999px;
 }
 
-.nav-link {
-    font-size: 1rem;
-    font-family: var(--urbanist-medium) !important;
+.button-light:hover,
+.button-default:hover,
+.button-reverse:hover {
+    opacity: 0.8;
+}
+/* END COMPONENT STYLE */
+
+
+/* COMPONENT NAVBAR */
+.navbar .nav-link {
+    color: rgba(var(--light-color), 0.52);
 }
 
-.nav-link.active,
-.nav-link:hover {
-    color: rgba(var(--primary-color), 1) !important;
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: rgba(var(--light-color), 1);
 }
-/* END NAVBAR */
+/* END COMPONENT NAVBAR */
 
 /* SECTION HERO */
 .hero {
@@ -177,210 +155,14 @@ h6 {
 /* END SECTION HERO */
 
 
-/* SECTION ADVENTAGE */
-.card-icon {
-    width: 56px;
-    height: 56px;
-    border-radius: 7px;
-    background-color: rgba(var(--light-color), 1);
-    border: 1px solid rgba(var(--dark-color), 0.12);
-}
-
-.card-link {
-    color: rgba(var(--primary-color), 1);
-    font-size: 0.845rem;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    stroke: none;
-    font-family: var(--urbanist-medium) !important;
-}
-
-.card-link:hover > img {
-    transform: translateX(3px);
-}
-/* END SECTION ADVENTAGE */
-
-
-/* SECTION ZONE */
-.zone-title.active {
-    color: rgba(var(--primary-color), 1);
-}
-/* END SECTION ZONE */
-
-
-/* SECTION ABOUT */
-.fact-value {
-    color: rgba(var(--primary-color), 1);
-    font-size: 3.5rem;
-    margin-bottom: 8px;
-    line-height: 120%;
-    font-family: var(--koulen-regular) !important;
-}
-
-.fact-caption {
-    color: rgba(var(--dark-color), 0.52);
-    font-size: 0.875rem;
-}
-/* END SECTION ABOUT */
-
-
-/* SECTION GUIDELINE */
-.guideline .card-icon {
-    min-width: 52px !important;
-    max-width: 52px !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
-}
-
-.guide-number {
-    font-size: 1.625rem;
-    font-family: var(--koulen-regular) !important;
-    color: rgba(var(--primary-color), 1);
-}
-/* END SECTION GUIDELINE */
-
-
-/* SECTION PRICING */
-.pricing-price {
-    font-size: 2rem;
-    font-family: var(--koulen-regular) !important;
-    color: rgba(var(--primary-color), 1);
-    line-height: 122%;
-}
-
-.button-pricing {
-    display: inline-block;
-    padding: 15px 28px;
-    background-color: transparent;
-    border: 1px solid rgba(var(--primary-color), 1);
-    border-radius: 9999px;
-    color: rgba(var(--primary-color), 1);
-    width: 100% !important;
-    cursor: pointer;
-    font-size: 0.875rem;
-    text-decoration: none;
-    text-align: center;
-}
-
-.button-pricing:hover {
-    background-color: rgba(var(--primary-color), 1);
-    color: rgba(var(--light-color), 1);
-}
-/* END SECTION PRICING */
-
-
-/* SECTION GALLERY */
-.gallery img {
-    border-radius: 8px;
-}
-/* END SECTION GALLERY */
-
-
-/* SECTION TESTIMONI */
-.testimoni .card-default {
-    padding: 22px !important;
-}
-.wrapper-profile {
-    padding: 6px;
-    border: 1px solid rgba(var(--dark-color), 0.12);
-    border-radius: 3px;
-    background-color: rgba(var(--light-color), 1);
-}
-
-.profile-name {
-    color: rgba(var(--primary-color), 1);
-}
-
-.profile-position {
-    color: rgba(var(--dark-color), 1);
-    font-size: 0.875rem;
-}
-
-.swiper-pagination {
-    top: 0;
-    left: 0 !important;
-    transform: translateY(40px);
-    z-index: 9999 !important;
-}
-
-.swiper-pagination-bullet {
-    background-color: rgba(var(--dark-color), 0.52) !important;
-    width: 10px !important;
-    height: 10px !important;
-    margin: 0 2px !important;
-}
-
-.swiper-pagination-bullet-active {
-    width: 28px !important;
-    background-color: rgba(var(--dark-color), 0.52) !important;
-    border-radius: 6px;
-}
-/* END SECTION TESTIMONI */
-
-
-/* SECTION FAQ */
-.accordion-button {
-    padding: 24px !important;
-    background-color: rgba(var(--dark-color), 0.02) !important;
-}
-/* END SECTION FAQ */
-
-
-/* FOOTER */
-.footer {
-    background-color: rgba(var(--dark-color), 1);
-    padding-top: 122px;
-    margin-top: 122px;
-}
-
-.footer h6 {
-    color: rgba(var(--light-color), 1);
-}
-
-.footer .paragraph-small {
-    font-size: 0.913rem;
-    color: rgba(var(--light-color), 0.72);
-    text-decoration: none;
-}
-
-.footer a.paragraph-small:hover {
-    color: rgba(var(--light-color), 1);
-}
-
-.sosmed-icon {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(var(--light-color), 0.02);
-    border: 1px solid rgba(var(--light-color), 0.12);
-    border-radius: 4px;
-}
-
-.sosmed-icon:hover {
-    background-color: rgba(var(--light-color), 0.06);
-}
-
-.copyright {
-    padding: 22px 0 !important;
-    border-top: 1px solid rgba(var(--light-color), 0.12);
-}
-
-.copyright p {
-    font-size: 0.875rem;
-    color: rgba(var(--light-color), 0.32);
-    font-family: var(--urbanist-regular) !important;
-}
-/* END FOOTER */
-
-
 /* BREAKPOINT XL */
 @media (max-width: 1399.98px) {
     .headline {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     
     .title {
-        font-size: 2.5rem;
+        font-size: 2.125rem;
     }
 }
 /* END BREAKPOINT XL */
@@ -389,11 +171,11 @@ h6 {
 /* BREAKPOINT LG */
 @media (max-width: 1199.98px) {
     .headline {
-        font-size: 3.5rem;
+        font-size: 2.25rem;
     }
     
     .title {
-        font-size: 2.5rem;
+        font-size: 1.928rem;
     }
 }
 /* END BREAKPOINT LG */
@@ -419,11 +201,11 @@ h6 {
 /* BREAKPOINT SM */
 @media (max-width: 767.98px) {
     .headline {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .title {
-        font-size: 2.25rem;
+        font-size: 1.875rem;
     }
 }
 /* END BREAKPOINT MD */
