@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
-<body>
+<body id="home" style="padding-bottom: 100px">
 
     <main>
         {{-- NAVBAR --}}
@@ -79,6 +79,156 @@
                 </div>
             </section>
             {{-- END HERO SECTION --}}
+
+
+            {{-- JUDGING SECTION --}}
+            <section class="judging section-gap" id="judging">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6">
+                        <h2 class="title">Meet the <span class="light">Visionary</span> Panel of <span
+                                class="light">Judges</span> Shaping the
+                            <span class="light">Future</span> of <span class="primary">Entrepreneurship</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">In the Judging Panel section, we introduce you to the esteemed group of
+                            industry experts and entrepreneurs who form the backbone of our startup competition.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrapper position-relative">
+                            <div class="swiper mySwiperJudges position-relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="86" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="86" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="86" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="58" height="58">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="58" height="58">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="judges-profile d-flex gap-3">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/judges/judges-1.svg') }}"
+                                                        class="img-fluid" alt="Judges Profile Image"
+                                                        style="border-radius: 5px;" width="58" height="58">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <p class="profile-position" style="margin-bottom: 2px;">CEO of
+                                                        TechGenius</p>
+                                                    <h6 class="profile-name" style="margin-bottom: 6px;">John Smith
+                                                    </h6>
+                                                    <p class="paragraph-small">John Smith is a successful entrepreneur
+                                                        who has founded and led several technology startups.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-judges position-absolute"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END JUDGING SECTION --}}
         </div>
     </main>
 
@@ -87,6 +237,28 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiperJudges", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            breakpoints: {
+                767: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination-judges",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>
