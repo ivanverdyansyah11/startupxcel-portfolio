@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
-<body id="home" style="padding-bottom: 100px">
+<body id="home">
 
     <main>
         {{-- NAVBAR --}}
@@ -821,10 +821,103 @@
                     </div>
                 </div>
             </section>
-        </div>
-        {{-- END FAQ SECTION --}}
+            {{-- END FAQ SECTION --}}
 
+
+            {{-- CTA --}}
+            <section class="cta section-gap">
+                <div class="row justify-content-center position-relative" style="z-index: 9999;">
+                    <div
+                        class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
+                        <h2 class="title" style="margin-bottom: 20px;"><span class="light">Ready</span> to Make
+                            an
+                            <span class="light">Impact?</span> Take the Leap and <span class="light">Join</span>
+                            the <span class="primary">Competition</span>
+                        </h2>
+                        <p class="paragraph" style="margin-bottom: 36px;">Ready to step into the spotlight? The
+                            CTA
+                            (Call-to-Action) section is your gateway to a remarkable opportunity to showcase your
+                            startup's
+                            potential. Join a vibrant community of innovators, entrepreneurs, and investors who are
+                            passionate about disrupting industries and driving change.</p>
+                        <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
+                            <a href="#" class="button-default">Award Competition</a>
+                            <a href="#" class="button-reverse d-flex align-items-center gap-2">
+                                Register Now
+                                <div class="arrow-icon d-flex justify-content-center align-items-center">
+                                    <img src="{{ asset('assets/img/icon/arrow-icon.svg') }}" class="img-fluid"
+                                        alt="Button Arrow Icon">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END CTA --}}
         </div>
+        {{-- FOOTER --}}
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row" style="margin-bottom: 100px">
+                    <div class="col-6 col-md-3 mb-5 mb-md-0">
+                        <a class="footer-brand d-inline-block" href="#home" style="margin-bottom: 18px;">
+                            <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" class="img-fluid w-100"
+                                alt="Logo Brand">
+                        </a>
+                        <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to StartUpXcel, a platform
+                            designed to ignite and empower startups from around the world.</p>
+                        <div class="wrapper-sosmed d-flex gap-2">
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
+                                    alt="Facebook Icon" width="15">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
+                                    alt="Whatsapp Icon" width="15">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
+                                    alt="Twitter Icon" width="15">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="offset-lg-2 offset-xl-3 col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
+                        <h6 style="margin-bottom: 20px">Quick Links</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#home" class="paragraph-small">Home</a>
+                            <a href="#about" class="paragraph-small">About Us</a>
+                            <a href="#guideline" class="paragraph-small">Safety Guidelines</a>
+                            <a href="#pricing" class="paragraph-small">Pricing Packages</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <h6 style="margin-bottom: 20px">Our Adventages</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#adventage" class="paragraph-small">Active Fun for All Ages</a>
+                            <a href="#adventage" class="paragraph-small">Safety First</a>
+                            <a href="#adventage" class="paragraph-small">Variety of Attractions</a>
+                            <a href="#adventage" class="paragraph-small">Fitness and Fun Combined</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h6 style="margin-bottom: 20px">Help & guide</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="" class="paragraph-small">Terms & Conditions</a>
+                            <a href="" class="paragraph-small">Privacy Policy</a>
+                            <a href="" class="paragraph-small">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 copyright text-center">
+                        <p>Copyright © 2023 StartUpXcel. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {{-- END FOOTER --}}
     </main>
 
 
