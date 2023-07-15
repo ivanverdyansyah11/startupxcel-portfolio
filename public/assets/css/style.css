@@ -266,24 +266,35 @@ h6 {
     border-top: 1px solid rgba(var(--light-color), 0.12);
 }
 
+.accordion-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #242329;
+    background-image: url('../img/icon/arrow-down-icon.svg');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .accordion-button:not(.collapsed)::before {
+} */
+
 .accordion-button::after {
-    width: 10px;
+    display: none;
+    /* width: 10px;
     height: 10px;
     background-image: url('../img/icon/arrow-down-icon.svg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
-.accordion-button:not(.collapsed)::after {
-    width: 10px;
-    height: 10px;
-    background-image: url('../img/icon/arrow-up-icon.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: #242329;
-}
 /* END SECTION FAQ */
 
 
