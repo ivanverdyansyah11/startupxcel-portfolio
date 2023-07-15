@@ -391,6 +391,7 @@
             </section>
             {{-- END SCHEDULE SECTION --}}
 
+
             {{-- ADVENTAGE SECTION --}}
             <section class="adventage d-flex align-items-center section-gap" id="adventage">
                 <div class="row align-items-center">
@@ -458,6 +459,72 @@
                     </div>
             </section>
             {{-- END ADVENTAGE SECTION --}}
+
+
+            {{-- RULE SECTION --}}
+            <section class="rule section-gap" id="rule">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6">
+                        <h2 class="title">Play by the <span class="light">Rules</span>, Win with <span
+                                class="light">Strategy</span>, Your Roadmap to <span class="primary">Startup</span>
+                            <span class="light">Competition
+                                Success</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Navigate the path to victory by acquainting yourself with the Rules and
+                            Regulations section. This section serves as your compass, outlining the guidelines,
+                            processes.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="wrapper-number d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px">
+                                <h3>1</h3>
+                            </div>
+                            <h6 class="primary" style="margin-bottom: 5px">Eligibility</h6>
+                            <p class="paragraph light">Must be a legally registered business entity. Startups in all
+                                industries are welcome to apply. The competition is open to both early-stage.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="wrapper-number d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px">
+                                <h3>2</h3>
+                            </div>
+                            <h6 class="primary" style="margin-bottom: 5px">Submission Guidelines</h6>
+                            <p class="paragraph light">Submissions must include a comprehensive business plan or pitch
+                                deck. Startups must provide a clear description of their product/service.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                        <div class="card-default">
+                            <div class="wrapper-number d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px">
+                                <h3>3</h3>
+                            </div>
+                            <h6 class="primary" style="margin-bottom: 5px">Evaluation Process</h6>
+                            <p class="paragraph light">Innovation and uniqueness of the product/service. Market
+                                potential and scalability. Business model viability and financial sustainability.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card-default">
+                            <div class="wrapper-number d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px">
+                                <h3>4</h3>
+                            </div>
+                            <h6 class="primary" style="margin-bottom: 5px">Intellectual Property</h6>
+                            <p class="paragraph light">Participants retain ownership of their intellectual property,
+                                but it is recommended that they take necessary measures to protect ideas.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </div>
     </main>

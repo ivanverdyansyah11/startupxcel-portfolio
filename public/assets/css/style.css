@@ -167,6 +167,14 @@ h6 {
     color: rgba(var(--primary-color), 1);
     font-size: 0.875rem;
 }
+
+.primary {
+    color: rgba(var(--primary-color), 1);
+}
+
+.paragraph.light {
+    color: rgba(var(--light-color), 1);
+}
 /* END COMPONENT STYLE */
 
 
@@ -225,6 +233,21 @@ h6 {
     opacity: 1;
 }
 /* END SECTION SCHEDULE */
+
+
+/*  SECTION RULE */
+.wrapper-number {
+    width: 56px;
+    height: 56px;
+    background-color: #242329;
+    border-radius: 8px;
+}
+
+.wrapper-number > h3 {
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+/* END SECTION RULE */
 
 
 /* BREAKPOINT XL */
