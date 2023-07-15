@@ -138,7 +138,7 @@ h6 {
 .card-default {
     background-color: #1F1E23;
     border-radius: 14px;
-    padding: 22px;
+    padding: 26px;
 }
 
 .wrapper-profile {
@@ -147,6 +147,25 @@ h6 {
     padding: 8px;
     width: fit-content;
     height: fit-content;
+}
+
+.wrapper-banner {
+    background-color: #1F1E23;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.wrapper-banner > img {
+    border-radius: 12px;
+}
+
+.section-gap {
+    margin-top: 122px !important;
+}
+
+.subtitle {
+    color: rgba(var(--primary-color), 1);
+    font-size: 0.875rem;
 }
 /* END COMPONENT STYLE */
 
@@ -170,14 +189,6 @@ h6 {
 
 
 /* SECTION JUDGES */
-.profile-position {
-    color: rgba(var(--primary-color), 1);
-}
-
-.profile-name {
-    color: rgba(var(--light-color), 1);
-}
-
 .swiper-pagination-judges {
     z-index: 9999;
     top: 0;
@@ -198,6 +209,22 @@ h6 {
     border-radius: 6px;
 }
 /* END SECTION JUDGES */
+
+
+/* SECTION SCHEDULE */
+.schedule .button-light {
+    background-color: transparent;
+    border: 1px solid rgba(var(--light-color), 1);
+    width: 100%;
+    color: rgba(var(--light-color), 1);
+}
+
+.schedule .button-light:hover {
+    background-color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 1);
+    opacity: 1;
+}
+/* END SECTION SCHEDULE */
 
 
 /* BREAKPOINT XL */
