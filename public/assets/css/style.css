@@ -175,6 +175,27 @@ h6 {
 .paragraph.light {
     color: rgba(var(--light-color), 1);
 }
+
+.swiper-pagination-judges,
+.swiper-pagination-testimoni {
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transform: translateY(56px);
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(var(--light-color), 0.52) !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 2px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 28px !important;
+    background-color: rgba(var(--light-color), 0.52) !important;
+    border-radius: 6px;
+}
 /* END COMPONENT STYLE */
 
 
@@ -194,29 +215,6 @@ h6 {
     height: 88vh;
 }
 /* END SECTION HERO */
-
-
-/* SECTION JUDGES */
-.swiper-pagination-judges {
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    transform: translateY(56px);
-}
-
-.swiper-pagination-bullet {
-    background-color: rgba(var(--light-color), 0.52) !important;
-    width: 10px !important;
-    height: 10px !important;
-    margin: 0 2px !important;
-}
-
-.swiper-pagination-bullet-active {
-    width: 28px !important;
-    background-color: rgba(var(--light-color), 0.52) !important;
-    border-radius: 6px;
-}
-/* END SECTION JUDGES */
 
 
 /* SECTION SCHEDULE */
@@ -248,6 +246,45 @@ h6 {
     font-weight: bold;
 }
 /* END SECTION RULE */
+
+
+/* SECTION FAQ */
+.accordion-item {
+    border: none !important;
+    outline: none !important;
+    stroke: none !important;
+    background-color: #1F1E23 !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    padding: 24px !important;
+    background-color: #1F1E23 !important;
+}
+
+.accordion-body > p {
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
+
+.accordion-button::after {
+    width: 10px;
+    height: 10px;
+    background-image: url('../img/icon/arrow-down-icon.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed)::after {
+    width: 10px;
+    height: 10px;
+    background-image: url('../img/icon/arrow-up-icon.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: #242329;
+}
+/* END SECTION FAQ */
 
 
 /* BREAKPOINT XL */

@@ -17,7 +17,7 @@
 
     <main>
         {{-- NAVBAR --}}
-        <nav class="navbar navbar-expand-lg py-3 position-relative">
+        <nav class="navbar navbar-dark navbar-expand-lg py-3 position-relative">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="#home">
                     <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" alt="Logo Brand" width="152">
@@ -525,6 +525,304 @@
                     </div>
                 </div>
             </section>
+            {{-- END RULE SECTION --}}
+
+
+            {{-- TESTIMONI SECTION --}}
+            <section class="testimoni section-gap" id="testimoni">
+                <div class="row align-items-center justify-content-between row-gap">
+                    <div class="col-5 pe-lg-5 pe-xxl-0 d-none d-lg-inline-block">
+                        <div class="wrapper-banner">
+                            <img src="{{ asset('assets/img/banner/testimonial-banner.svg') }}"
+                                class="img-fluid w-100" alt="Testimonial Banner">
+                        </div>
+                    </div>
+
+                    <div class="offset-xxl-1  col-lg-7 col-xxl-6">
+                        <h2 class="title" style="margin-bottom: 20px;">Hear from the <span
+                                class="light">Visionaries</span>, <span class="primary">Inspiring</span> <span
+                                class="light">Stories</span>
+                            from Past <span class="light">Participants</span></h2>
+                        <p class="paragraph" style="margin-bottom: 36px;">In the Testimonial section, we bring you the
+                            stories of past participants who have experienced the transformative power of the startup
+                            competition firsthand.</p>
+
+                        <div class="wrapper position-relative">
+                            <div class="swiper mySwiperTestimoni position-relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimonial d-flex flex-column gap-3">
+                                            <div class="wrapper d-flex gap-3 align-items-center">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                        class="img-fluid" alt="Testimonial Profile Image"
+                                                        style="border-radius: 5px;" width="50" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
+                                                        Chen</h6>
+                                                    <p class="subtitle" style="color: white;">Co-founder and
+                                                        CEO
+                                                        of
+                                                        TechGenius
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“I am incredibly grateful for the
+                                                opportunities
+                                                and growth that
+                                                the StartUpXcel has provided me as a young entrepreneur. As a
+                                                participant in last year's
+                                                competition, I had the privilege of showcasing my startup to
+                                                industry
+                                                experts,
+                                                investors, and mentors. The valuable feedback”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimonial d-flex flex-column gap-3">
+                                            <div class="wrapper d-flex gap-3 align-items-center">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                        class="img-fluid" alt="Testimonial Profile Image"
+                                                        style="border-radius: 5px;" width="50" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
+                                                        Chen</h6>
+                                                    <p class="subtitle" style="color: white;">Co-founder and
+                                                        CEO
+                                                        of
+                                                        TechGenius
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“I am incredibly grateful for the
+                                                opportunities
+                                                and growth that
+                                                the StartUpXcel has provided me as a young entrepreneur. As a
+                                                participant in last year's
+                                                competition, I had the privilege of showcasing my startup to
+                                                industry
+                                                experts,
+                                                investors, and mentors. The valuable feedback”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimonial d-flex flex-column gap-3">
+                                            <div class="wrapper d-flex gap-3 align-items-center">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                        class="img-fluid" alt="Testimonial Profile Image"
+                                                        style="border-radius: 5px;" width="50" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
+                                                        Chen</h6>
+                                                    <p class="subtitle" style="color: white;">Co-founder and
+                                                        CEO
+                                                        of
+                                                        TechGenius
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“I am incredibly grateful for the
+                                                opportunities
+                                                and growth that
+                                                the StartUpXcel has provided me as a young entrepreneur. As a
+                                                participant in last year's
+                                                competition, I had the privilege of showcasing my startup to
+                                                industry
+                                                experts,
+                                                investors, and mentors. The valuable feedback”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-testimonial d-flex flex-column gap-3">
+                                            <div class="wrapper d-flex gap-3 align-items-center">
+                                                <div
+                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                        class="img-fluid" alt="Testimonial Profile Image"
+                                                        style="border-radius: 5px;" width="50" height="86">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
+                                                        Chen</h6>
+                                                    <p class="subtitle" style="color: white;">Co-founder and
+                                                        CEO
+                                                        of
+                                                        TechGenius
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“I am incredibly grateful for the
+                                                opportunities
+                                                and growth that
+                                                the StartUpXcel has provided me as a young entrepreneur. As a
+                                                participant in last year's
+                                                competition, I had the privilege of showcasing my startup to
+                                                industry
+                                                experts,
+                                                investors, and mentors. The valuable feedback”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-testimoni position-absolute"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END TESTIMONI SECTION --}}
+
+
+            {{-- FAQ SECTION --}}
+            <section class="faq section-gap" id="faq">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6">
+                        <h2 class="title"><span class="light">Everything</span> You Need to Know, Frequently <span
+                                class="light">Asked Questions</span> about the
+                            <span class="primary">Competition</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">In the FAQ section, we address the most common questions and concerns that
+                            participants may have regarding the startup competition.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="true" aria-controls="collapseThree">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                                        aria-controls="collapseSix">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        {{-- END FAQ SECTION --}}
 
         </div>
     </main>
@@ -552,6 +850,18 @@
             },
             pagination: {
                 el: ".swiper-pagination-judges",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiperTestimoni", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination-testimoni",
                 clickable: true,
             },
         });
