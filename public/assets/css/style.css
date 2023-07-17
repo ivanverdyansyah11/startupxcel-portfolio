@@ -287,12 +287,6 @@ h6 {
 
 .accordion-button::after {
     display: none;
-    /* width: 10px;
-    height: 10px;
-    background-image: url('../img/icon/arrow-down-icon.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 /* END SECTION FAQ */
