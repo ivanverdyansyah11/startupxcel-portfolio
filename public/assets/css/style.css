@@ -196,6 +196,19 @@ h6 {
     background-color: rgba(var(--light-color), 0.52) !important;
     border-radius: 6px;
 }
+
+.modal-content {
+    background-color: rgba(var(--dark-color), 1);
+    border: 1px solid rgba(var(--light-color), 0.12);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(var(--light-color), 0.12);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
 /* END COMPONENT STYLE */
 
 
