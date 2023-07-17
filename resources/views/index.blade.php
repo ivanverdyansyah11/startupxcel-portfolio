@@ -537,7 +537,7 @@
                                                 competition, I had the privilege of showcasing my startup to
                                                 industry
                                                 experts,
-                                                investors, and mentors. The valuable feedback”</p>
+                                                investors, and mentors. The valuable feedback.”</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -545,29 +545,22 @@
                                             <div class="wrapper d-flex gap-3 align-items-center">
                                                 <div
                                                     class="wrapper-profile d-flex justify-content-center align-items-center">
-                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-2.svg') }}"
                                                         class="img-fluid" alt="Testimonial Profile Image"
                                                         style="border-radius: 5px;" width="50" height="86">
                                                 </div>
                                                 <div class="wrapper">
-                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
-                                                        Chen</h6>
-                                                    <p class="subtitle" style="color: white;">Co-founder and
-                                                        CEO
-                                                        of
-                                                        TechGenius
+                                                    <h6 class="primary" style="margin-bottom: 2px;">John Smith</h6>
+                                                    <p class="subtitle" style="color: white;">Founder & CEO, TechX
+                                                        Solutions
                                                     </p>
                                                 </div>
                                             </div>
-                                            <p class="paragraph-small">“I am incredibly grateful for the
-                                                opportunities
-                                                and growth that
-                                                the StartUpXcel has provided me as a young entrepreneur. As a
-                                                participant in last year's
-                                                competition, I had the privilege of showcasing my startup to
-                                                industry
-                                                experts,
-                                                investors, and mentors. The valuable feedback”</p>
+                                            <p class="paragraph-small">“Participating in the startup competition was a
+                                                transformative experience for me. It provided a platform to showcase our
+                                                innovative solution and receive valuable feedback from industry experts.
+                                                The competition's rigorous judging process helped us refine our business
+                                                model.”</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -575,59 +568,21 @@
                                             <div class="wrapper d-flex gap-3 align-items-center">
                                                 <div
                                                     class="wrapper-profile d-flex justify-content-center align-items-center">
-                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
+                                                    <img src="{{ asset('assets/img/testimonial/testimonial-3.svg') }}"
                                                         class="img-fluid" alt="Testimonial Profile Image"
                                                         style="border-radius: 5px;" width="50" height="86">
                                                 </div>
                                                 <div class="wrapper">
-                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
-                                                        Chen</h6>
-                                                    <p class="subtitle" style="color: white;">Co-founder and
-                                                        CEO
-                                                        of
-                                                        TechGenius
-                                                    </p>
+                                                    <h6 class="primary" style="margin-bottom: 2px;">Sarah Johnson</h6>
+                                                    <p class="subtitle" style="color: white;">Venture Capitalist &
+                                                        Competition Judge</p>
                                                 </div>
                                             </div>
-                                            <p class="paragraph-small">“I am incredibly grateful for the
-                                                opportunities
-                                                and growth that
-                                                the StartUpXcel has provided me as a young entrepreneur. As a
-                                                participant in last year's
-                                                competition, I had the privilege of showcasing my startup to
-                                                industry
-                                                experts,
-                                                investors, and mentors. The valuable feedback”</p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="wrapper-testimonial d-flex flex-column gap-3">
-                                            <div class="wrapper d-flex gap-3 align-items-center">
-                                                <div
-                                                    class="wrapper-profile d-flex justify-content-center align-items-center">
-                                                    <img src="{{ asset('assets/img/testimonial/testimonial-1.svg') }}"
-                                                        class="img-fluid" alt="Testimonial Profile Image"
-                                                        style="border-radius: 5px;" width="50" height="86">
-                                                </div>
-                                                <div class="wrapper">
-                                                    <h6 class="primary" style="margin-bottom: 2px;">Jessica
-                                                        Chen</h6>
-                                                    <p class="subtitle" style="color: white;">Co-founder and
-                                                        CEO
-                                                        of
-                                                        TechGenius
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <p class="paragraph-small">“I am incredibly grateful for the
-                                                opportunities
-                                                and growth that
-                                                the StartUpXcel has provided me as a young entrepreneur. As a
-                                                participant in last year's
-                                                competition, I had the privilege of showcasing my startup to
-                                                industry
-                                                experts,
-                                                investors, and mentors. The valuable feedback”</p>
+                                            <p class="paragraph-small">“As a judge in the startup competition, I was
+                                                impressed by the caliber of talent and innovation on display. It was
+                                                inspiring to witness the passion and dedication of the entrepreneurs as
+                                                they presented their ideas. The competition provided a valuable
+                                                opportunity to identify.”</p>
                                         </div>
                                     </div>
                                 </div>
