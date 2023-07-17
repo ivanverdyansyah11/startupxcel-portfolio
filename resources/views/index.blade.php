@@ -29,12 +29,13 @@
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="">Home</a>
-                        <a class="nav-link py-2 py-lg-0 px-lg-3" href="">About Us</a>
-                        <a class="nav-link py-2 py-lg-0 px-lg-3" href="">Schedule</a>
+                        <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="#home">Home</a>
+                        <a class="nav-link py-2 py-lg-0 px-lg-3" href="#about">About Us</a>
+                        <a class="nav-link py-2 py-lg-0 px-lg-3" href="#schedule">Schedule</a>
                     </div>
                 </div>
-                <a href="#" class="button-light d-none d-lg-flex align-items-center gap-2">
+                <a href="https://wa.me/6281234567890" target="_blank"
+                    class="button-light d-none d-lg-flex align-items-center gap-2">
                     Contact Us
                     <img src="{{ asset('assets/img/icon/arrow-icon.svg') }}" class="img-fluid" alt="Arrow Icon">
                 </a>
@@ -62,7 +63,7 @@
                                 future of your startup.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#" class="button-default">Schedule Competition</a>
+                            <a href="#schedule" class="button-default">Schedule Competition</a>
                             <a href="#" class="button-reverse d-flex align-items-center gap-2">
                                 Register Now
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
@@ -214,8 +215,9 @@
                                 like-minded individuals and industry experts.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#" class="button-default">Award Competition</a>
-                            <a href="#" class="button-reverse d-flex align-items-center gap-2">
+                            <a href="#adventage" class="button-default">Award Competition</a>
+                            <a href="https://wa.me/6281234567890" target="_blank"
+                                class="button-reverse d-flex align-items-center gap-2">
                                 Contact Admin
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
                                     <img src="{{ asset('assets/img/icon/arrow-icon.svg') }}" class="img-fluid"
@@ -983,7 +985,7 @@
                             potential. Join a vibrant community of innovators, entrepreneurs, and investors who are
                             passionate about disrupting industries and driving change.</p>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#" class="button-default">Award Competition</a>
+                            <a href="#adventage" class="button-default">Award Competition</a>
                             <a href="#" class="button-reverse d-flex align-items-center gap-2">
                                 Register Now
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
@@ -1009,15 +1011,18 @@
                         <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to StartUpXcel, a platform
                             designed to ignite and empower startups from around the world.</p>
                         <div class="wrapper-sosmed d-flex gap-2">
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://id-id.facebook.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
                                     alt="Facebook Icon" width="15">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://www.whatsapp.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
                                     alt="Whatsapp Icon" width="15">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://twitter.com/?lang=id" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
                                     alt="Twitter Icon" width="15">
                             </a>
@@ -1029,25 +1034,25 @@
                         <div class="wrapper d-flex flex-column gap-3">
                             <a href="#home" class="paragraph-small">Home</a>
                             <a href="#about" class="paragraph-small">About Us</a>
-                            <a href="#guideline" class="paragraph-small">Safety Guidelines</a>
-                            <a href="#pricing" class="paragraph-small">Pricing Packages</a>
+                            <a href="#schedule" class="paragraph-small">Schedule Competition</a>
+                            <a href="#judging" class="paragraph-small">Judging Panel</a>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 col-xl-2">
-                        <h6 style="margin-bottom: 20px">Our Adventages</h6>
+                        <h6 style="margin-bottom: 20px">Rule Competition</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#adventage" class="paragraph-small">Active Fun for All Ages</a>
-                            <a href="#adventage" class="paragraph-small">Safety First</a>
-                            <a href="#adventage" class="paragraph-small">Variety of Attractions</a>
-                            <a href="#adventage" class="paragraph-small">Fitness and Fun Combined</a>
+                            <a href="#rule" class="paragraph-small">Eligibility</a>
+                            <a href="#rule" class="paragraph-small">Submission Guidelines</a>
+                            <a href="#rule" class="paragraph-small">Evaluation Process</a>
+                            <a href="#rule" class="paragraph-small">Intellectual Property</a>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2">
                         <h6 style="margin-bottom: 20px">Help & guide</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="" class="paragraph-small">Terms & Conditions</a>
-                            <a href="" class="paragraph-small">Privacy Policy</a>
-                            <a href="" class="paragraph-small">Contact Us</a>
+                            <a href="#" class="paragraph-small">Terms & Conditions</a>
+                            <a href="#" class="paragraph-small">Privacy Policy</a>
+                            <a href="#" class="paragraph-small">Contact Us</a>
                         </div>
                     </div>
                 </div>
