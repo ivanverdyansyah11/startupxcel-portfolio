@@ -77,7 +77,7 @@
                     </div>
                     <div class="offset-xxl-1 col-lg-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100"
-                            alt="Hero Banner" data-aos="fade-right" data-aos-duration="1400">
+                            alt="Hero Banner" data-aos="fade" data-aos-duration="1400">
                     </div>
                 </div>
             </section>
