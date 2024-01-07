@@ -88,13 +88,13 @@
             <section class="judging section-gap" id="judging">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">Meet the <span class="light">Visionary</span> Panel of <span
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Meet the <span class="light">Visionary</span> Panel of <span
                                 class="light">Judges</span> Shaping the
                             <span class="light">Future</span> of <span class="primary">Entrepreneurship</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">In the Judging Panel section, we introduce you to the esteemed group of
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">In the Judging Panel section, we introduce you to the esteemed group of
                             industry experts and entrepreneurs who form the backbone of our startup competition.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         <div class="wrapper position-relative">
                             <div class="swiper mySwiperJudges position-relative">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400">
                                         <div class="card-default">
                                             <div class="judges-profile d-flex gap-3">
                                                 <div
@@ -124,7 +124,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
                                         <div class="card-default">
                                             <div class="judges-profile d-flex gap-3">
                                                 <div
@@ -144,7 +144,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="600">
                                         <div class="card-default">
                                             <div class="judges-profile d-flex gap-3">
                                                 <div
@@ -164,7 +164,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="900">
                                         <div class="card-default">
                                             <div class="judges-profile d-flex gap-3">
                                                 <div
