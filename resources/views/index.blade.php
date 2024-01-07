@@ -199,27 +199,27 @@
                     <div class="col-lg-6 col-xxl-5 pe-lg-5 pe-xxl-0 d-none d-lg-inline-block">
                         <div class="wrapper-banner">
                             <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100"
-                                alt="About Banner">
+                                alt="About Banner" data-aos="fade" data-aos-duration="1400">
                         </div>
                     </div>
                     <div class="offset-xxl-1 col-lg-6">
-                        <h2 class="title" style="margin-bottom: 20px;">We Open a <span class="light">Gateway</span>
+                        <h2 class="title" style="margin-bottom: 20px;" data-aos="fade-right" data-aos-duration="1400">We Open a <span class="light">Gateway</span>
                             for you to the <span class="light">World</span> of
                             <span class="primary">Entrepreneurship</span> and <span class="light">Innovation</span>
                         </h2>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 36px;">
-                            <p class="paragraph">Welcome to StartupXcel, a dynamic platform dedicated to fostering
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Welcome to StartupXcel, a dynamic platform dedicated to fostering
                                 innovation, fueling entrepreneurship, and propelling startups to excel. We are
                                 passionate about providing startups with the resources, support, and connections they
                                 need to thrive in a competitive business landscape.</p>
-                            <p class="paragraph">Our mission is to empower startups by offering comprehensive programs,
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Our mission is to empower startups by offering comprehensive programs,
                                 mentorship opportunities, networking events, and access to a vibrant ecosystem of
                                 like-minded individuals and industry experts.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#adventage" class="button-default">Award Competition</a>
+                            <a href="#adventage" class="button-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="400">Award Competition</a>
                             <a href="https://wa.me/6281234567890" target="_blank"
-                                class="button-reverse d-flex align-items-center gap-2">
+                                class="button-reverse d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                 Contact Admin
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
                                     <img src="{{ asset('assets/img/icon/arrow-icon.svg') }}" class="img-fluid"
