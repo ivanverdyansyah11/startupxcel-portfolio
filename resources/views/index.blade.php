@@ -65,7 +65,7 @@
                                 future of your startup.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#schedule" class="button-default" data-aos="fade-right" data-aos-duration="1400">Schedule Competition</a>
+                            <a href="#schedule" class="button-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="400">Schedule Competition</a>
                             <a href="#" class="button-reverse d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                 Register Now
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
