@@ -709,20 +709,20 @@
                     <div class="col-5 pe-lg-5 pe-xxl-0 d-none d-lg-inline-block">
                         <div class="wrapper-banner">
                             <img src="{{ asset('assets/img/banner/testimonial-banner.svg') }}"
-                                class="img-fluid w-100" alt="Testimonial Banner">
+                                class="img-fluid w-100" alt="Testimonial Banner" data-aos="fade" data-aos-duration="1400">
                         </div>
                     </div>
 
                     <div class="offset-xxl-1  col-lg-7 col-xxl-6">
-                        <h2 class="title" style="margin-bottom: 20px;">Hear from the <span
+                        <h2 class="title" style="margin-bottom: 20px;" data-aos="fade-right" data-aos-duration="1400">Hear from the <span
                                 class="light">Visionaries</span>, <span class="primary">Inspiring</span> <span
                                 class="light">Stories</span>
                             from Past <span class="light">Participants</span></h2>
-                        <p class="paragraph" style="margin-bottom: 36px;">In the Testimonial section, we bring you the
+                        <p class="paragraph" style="margin-bottom: 36px;" data-aos="fade-right" data-aos-duration="1400">In the Testimonial section, we bring you the
                             stories of past participants who have experienced the transformative power of the startup
                             competition firsthand.</p>
 
-                        <div class="wrapper position-relative">
+                        <div class="wrapper position-relative" data-aos="fade-right" data-aos-duration="1400">
                             <div class="swiper mySwiperTestimoni position-relative">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
