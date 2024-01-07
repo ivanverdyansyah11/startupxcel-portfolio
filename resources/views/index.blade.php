@@ -237,20 +237,20 @@
             <section class="schedule section-gap" id="schedule">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">Unlock the <span class="light">Future</span>, Discover the Action-Packed
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Unlock the <span class="light">Future</span>, Discover the Action-Packed
                             <span class="light">Schedule</span> of the <span class="primary">Startup</span>
                             <span class="light">Competition</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">The Schedule section is your guide to the action-packed adventure of the
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">The Schedule section is your guide to the action-packed adventure of the
                             StartUpXcel. From the opening ceremony to the final awards ceremony</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">20 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Opening Ceremony and Orientation</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">Opening Ceremony and Orientation
@@ -290,7 +290,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4 d-md-none">
+                        <div class="card-default mt-4 d-md-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">21 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Workshop and Idea Pitch Submission</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Workshop and Idea Pitch
@@ -333,7 +333,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4 d-lg-none">
+                        <div class="card-default mt-4 d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">22 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Idea Evaluation and Mentorship</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Idea Evaluation and Mentorship
@@ -376,7 +376,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4 d-md-none d-lg-inline-block">
+                        <div class="card-default mt-4 d-md-none d-lg-inline-block" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">23 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Business Plan Development and Semi-Finals</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Business Plan Development and
@@ -419,7 +419,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4 d-md-inline-block d-lg-none">
+                        <div class="card-default mt-4 d-md-inline-block d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">24 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Semi-Finals and Pitch Training</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Semi-Finals and Pitch Training
@@ -461,7 +461,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4 d-md-none">
+                        <div class="card-default mt-4 d-md-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">25 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Finals and Awards Ceremony</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Finals and Awards Ceremony is
@@ -505,7 +505,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 d-none d-md-inline-block">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">21 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Workshop and Idea Pitch Submission</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Workshop and Idea Pitch
@@ -514,7 +514,7 @@
                             <button class="button-light" data-bs-toggle="modal" data-bs-target="#modal21">More
                                 Detail</button>
                         </div>
-                        <div class="card-default mt-4 d-md-inline-block d-lg-none">
+                        <div class="card-default mt-4 d-md-inline-block d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">23 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Business Plan Development and Semi-Finals</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Business Plan Development and
@@ -523,7 +523,7 @@
                             <button class="button-light" data-bs-toggle="modal" data-bs-target="#modal23">More
                                 Detail</button>
                         </div>
-                        <div class="card-default mt-4 d-md-none d-lg-inline-block">
+                        <div class="card-default mt-4 d-md-none d-lg-inline-block" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">24 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Semi-Finals and Pitch Training</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Semi-Finals and Pitch Training
@@ -532,7 +532,7 @@
                             <button class="button-light" data-bs-toggle="modal" data-bs-target="#modal24">More
                                 Detail</button>
                         </div>
-                        <div class="card-default mt-4 d-md-inline-block d-lg-none">
+                        <div class="card-default mt-4 d-md-inline-block d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">25 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Finals and Awards Ceremony</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Finals and Awards Ceremony is
@@ -543,7 +543,7 @@
                         </div>
                     </div>
                     <div class="col-4 d-none d-lg-inline-block">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">22 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Idea Evaluation and Mentorship</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Idea Evaluation and Mentorship
@@ -552,7 +552,7 @@
                             <button class="button-light" data-bs-toggle="modal" data-bs-target="#modal22">More
                                 Detail</button>
                         </div>
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <p class="subtitle" style="margin-bottom: 2px;">25 January 2023</p>
                             <h6 style="margin-bottom: 6px;">Finals and Awards Ceremony</h6>
                             <p class="paragraph-small" style="margin-bottom: 32px">The Finals and Awards Ceremony is
