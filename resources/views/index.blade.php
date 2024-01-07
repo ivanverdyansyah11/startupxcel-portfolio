@@ -814,20 +814,20 @@
             <section class="faq section-gap" id="faq">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title"><span class="light">Everything</span> You Need to Know, Frequently <span
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400"><span class="light">Everything</span> You Need to Know, Frequently <span
                                 class="light">Asked Questions</span> about the
                             <span class="primary">Competition</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">In the FAQ section, we address the most common questions and concerns that
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">In the FAQ section, we address the most common questions and concerns that
                             participants may have regarding the startup competition.</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -849,7 +849,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -871,7 +871,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -896,7 +896,7 @@
                     </div>
 
                     <div class="col-md-6 mt-3 mt-md-0">
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -919,7 +919,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -942,7 +942,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -971,7 +971,7 @@
 
 
             {{-- CTA --}}
-            <section class="cta section-gap">
+            <section class="cta section-gap" data-aos="zoom-in-up" data-aos-duration="600">
                 <div class="row justify-content-center position-relative" style="z-index: 9999;">
                     <div
                         class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
