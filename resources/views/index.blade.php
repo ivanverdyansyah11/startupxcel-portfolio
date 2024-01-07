@@ -571,54 +571,54 @@
             <section class="adventage d-flex align-items-center section-gap" id="adventage">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <h2 class="title" style="margin-bottom: 20px;">Where <span class="light">Dreams</span> Are
+                        <h2 class="title" style="margin-bottom: 20px;" data-aos="fade-right" data-aos-duration="1400">Where <span class="light">Dreams</span> Are
                             Rewarded, <span class="light">Commemorating</span> the
                             Achievements of <span class="primary">Startup</span> <span class="light">Pioneers</span>
                         </h2>
-                        <p class="paragraph" style="margin-bottom: 36px;">The Award section is a testament to the
+                        <p class="paragraph" style="margin-bottom: 36px;" data-aos="fade-right" data-aos-duration="1400">The Award section is a testament to the
                             brilliance and determination
                             of startups in the StartUpXcel. Here, we showcase the exceptional talent, disruptive
                             ideas, and remarkable accomplishments that have emerged from the competition.</p>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="adventage-item d-flex align-items-center gap-3">
+                                <div class="adventage-item d-flex align-items-center gap-3" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Innovation Excellence Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Rising Star Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Investor's Choice Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Female Entrepreneur Award</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4 mt-md-0">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4 mt-md-0" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Social Impact Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Disruptor of the Year Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Tech Innovation Award</p>
                                 </div>
-                                <div class="adventage-item d-flex align-items-center gap-3 mt-4">
+                                <div class="adventage-item d-flex align-items-center gap-3 mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}"
                                         class="img-fluid rounded" alt="Adventage Checklist Icon" width="22">
                                     <p class="paragraph">Best Pitch Award</p>
@@ -629,7 +629,7 @@
                     <div class="offset-xxl-1 col-lg-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-inline-block">
                         <div class="wrapper-banner">
                             <img src="{{ asset('assets/img/banner/adventage-banner.svg') }}" class="img-fluid w-100"
-                                alt="Adventage Banner">
+                                alt="Adventage Banner" data-aos="fade" data-aos-duration="1400">
                         </div>
                     </div>
             </section>
