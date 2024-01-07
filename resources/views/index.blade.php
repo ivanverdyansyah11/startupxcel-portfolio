@@ -193,6 +193,7 @@
             </section>
             {{-- END JUDGING SECTION --}}
 
+            
             {{-- ABOUT SECTION --}}
             <section class="about d-flex align-items-center section-gap pt-5" id="about">
                 <div class="row align-items-center">
