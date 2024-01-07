@@ -640,14 +640,14 @@
             <section class="rule section-gap" id="rule">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">Play by the <span class="light">Rules</span>, Win with <span
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Play by the <span class="light">Rules</span>, Win with <span
                                 class="light">Strategy</span>, Your Roadmap to <span class="primary">Startup</span>
                             <span class="light">Competition
                                 Success</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Navigate the path to victory by acquainting yourself with the Rules and
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Navigate the path to victory by acquainting yourself with the Rules and
                             Regulations section. This section serves as your compass, outlining the guidelines,
                             processes.</p>
                     </div>
@@ -655,7 +655,7 @@
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400">
                             <div class="wrapper-number d-flex justify-content-center align-items-center"
                                 style="margin-bottom: 14px">
                                 <h3>1</h3>
@@ -666,7 +666,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
                             <div class="wrapper-number d-flex justify-content-center align-items-center"
                                 style="margin-bottom: 14px">
                                 <h3>2</h3>
@@ -677,7 +677,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="600">
                             <div class="wrapper-number d-flex justify-content-center align-items-center"
                                 style="margin-bottom: 14px">
                                 <h3>3</h3>
@@ -688,7 +688,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="900">
                             <div class="wrapper-number d-flex justify-content-center align-items-center"
                                 style="margin-bottom: 14px">
                                 <h3>4</h3>
