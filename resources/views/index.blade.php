@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    {{-- END STYLE CSS --}}
 </head>
 
 <body id="home">
 
     <main>
         {{-- NAVBAR --}}
-        <nav class="navbar navbar-dark navbar-expand-lg py-3 position-relative">
+        <nav class="navbar navbar-dark navbar-expand-lg py-3 position-relative" data-aos="fade-down" data-aos-duration="1400">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="#home">
                     <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" alt="Logo Brand" width="152">
@@ -48,23 +50,23 @@
             <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0" id="hero">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <h1 class="headline" style="margin-bottom: 22px;">Be a Part of the <span
+                        <h1 class="headline" style="margin-bottom: 22px;" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1000">Be a Part of the <span
                                 class="light">Exciting</span> <span class="primary">StartUpXcel</span> and
                             <span class="light">Experience</span> a Transformational Journey of <span
                                 class="light">Empowerment</span>
                         </h1>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 36px;">
-                            <p class="paragraph">Welcome to StartUpXcel, a platform designed to ignite and empower
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1600">Welcome to StartUpXcel, a platform designed to ignite and empower
                                 startups from around the world. We believe in the power of innovation and are committed
                                 to providing a stage where aspiring entrepreneurs can showcase their ideas, connect with
                                 industry leaders, and gain the recognition they deserve.</p>
-                            <p class="paragraph">At StartUpXcel, we believe that great ideas have the potential to
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1900">At StartUpXcel, we believe that great ideas have the potential to
                                 change the world. Join us and embark on a transformative journey that can shape the
                                 future of your startup.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#schedule" class="button-default">Schedule Competition</a>
-                            <a href="#" class="button-reverse d-flex align-items-center gap-2">
+                            <a href="#schedule" class="button-default" data-aos="fade-right" data-aos-duration="1400">Schedule Competition</a>
+                            <a href="#" class="button-reverse d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                 Register Now
                                 <div class="arrow-icon d-flex justify-content-center align-items-center">
                                     <img src="{{ asset('assets/img/icon/arrow-icon.svg') }}" class="img-fluid"
@@ -75,7 +77,7 @@
                     </div>
                     <div class="offset-xxl-1 col-lg-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100"
-                            alt="Hero Banner">
+                            alt="Hero Banner" data-aos="fade-right" data-aos-duration="1400">
                     </div>
                 </div>
             </section>
@@ -1072,8 +1074,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
+        AOS.init();
+
         var swiper = new Swiper(".mySwiperJudges", {
             slidesPerView: 1,
             spaceBetween: 20,
@@ -1104,6 +1109,7 @@
             },
         });
     </script>
+    {{-- END SCRIPT JS --}}
 </body>
 
 </html>
