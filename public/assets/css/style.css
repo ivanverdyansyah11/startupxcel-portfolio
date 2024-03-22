@@ -23,6 +23,15 @@
     transition: 250ms;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 body {
     background-color: rgba(var(--dark-color), 1);
 }
@@ -332,6 +341,7 @@ h6 {
 .footer {
     padding-top: 122px;
     margin-top: 122px;
+    border-top: 1px solid rgba(var(--light-color), 0.12);
 }
 
 .footer h6 {
@@ -377,7 +387,7 @@ h6 {
     .headline {
         font-size: 2.5rem;
     }
-    
+
     .title {
         font-size: 2.125rem;
     }
@@ -390,7 +400,7 @@ h6 {
     .headline {
         font-size: 2.25rem;
     }
-    
+
     .title {
         font-size: 1.928rem;
     }
@@ -420,7 +430,7 @@ h6 {
     .headline {
         font-size: 2rem;
     }
-    
+
     .title {
         font-size: 1.875rem;
     }
